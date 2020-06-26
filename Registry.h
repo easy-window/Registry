@@ -2,7 +2,7 @@
 
 namespace Easy {
 
-class Registry : public Base
+class Registry
 {
 public:
 	Registry();	

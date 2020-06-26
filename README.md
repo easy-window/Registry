@@ -9,7 +9,7 @@ using namespace Easy;
 
 Registry reg;
 
-Registry registry(Registry::KEY_LOCAL_MACHINE);
+Registry registry(HKEY_LOCAL_MACHINE);
 CString sKey = _T("Userinit"), sData;
 CString sOption = _T("SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon");
 
